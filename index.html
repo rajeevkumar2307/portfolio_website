@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link rel="shortcut icon" href="Logo/logo.ico" type="image/x-icon" />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+        <!--
+      - #SIDEBAR
+    -->
+
+        <aside class="sidebar" data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                    <img src="Avatar/my-avatar.png" alt="Rajeev Kumar" width="80" />
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="Rajeev Kumar">Rajeev Kumar</h1>
+
+                    <p class="title">Web developer</p>
+                </div>
+
+                <button class="info_more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+
+            <div class="sidebar-info_more">
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a href="mailto:rk9278641@gmail.com" class="contact-link">rk9278641@gmail.com</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+
+                            <a href="tel:+12133522795" class="contact-link">+91 9508692989</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+
+                            <time datetime="2024-05-22">July 23, 2003</time>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+
+                            <address>Bihar, Madhubani, India</address>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+                    <li class="social-item">
+                        <a href="https://www.facebook.com/rajeev.kumarchaurasiya.90" class="social-link" target="_blank">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="social-item">
+                        <a href="https://x.com/RajeevK26576965" class="social-link" target="_blank">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="social-item">
+                        <a href="https://www.instagram.com/rajeev__45/?hl=en" class="social-link" target="_blank">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="social-item">
+                        <a href="https://www.linkedin.com/in/rajeev-kumar-b0775a249/" class="social-link" target="_blank">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="social-item">
+                        <a href="https://www.snapchat.com/add/rajeev_892?share_id=8kjd6bEwQbI&locale=en-IN" class="social-link" target="_blank">
+                            <ion-icon name="logo-snapchat"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <!--
+      - #main-content
+    -->
+
+        <div class="main-content">
+            <!--
+        - #NAVBAR
+      -->
+
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <button class="navbar-link active" data-nav-link>About</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Resume</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Portfolio</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Contact</button>
+                    </li>
+                </ul>
+            </nav>
+
+            <!--
+        - #ABOUT
+      -->
+
+            <article class="about active" data-page="about">
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+
+                <section class="about-text">
+                    <p>
+                        My name is Rajeev Kumar. I have compleated BE from Pune university. and I want to setup my carrier in the filed of software
+                        development So I would like to join with the organization where I can enhanced my knowledge and Skills. 
+                    </p>
+
+                    <p>
+                        As a fresher, my focus is on building websites that are both functional and user-friendly.
+                        I am eager to bring new ideas and a fresh perspective to each project.
+                        My goal is to help you effectively communicate your message and brand identity in a creative and engaging way. 
+                        While I am at the beginning of my professional journey, I am enthusiastic about the opportunity to grow and contribute to exciting projects.
+                    </p>
+                </section>
+
+                <!--
+          - service
+        -->
+
+                <section class="service">
+                    <h3 class="h3 service-title">What i'm doing</h3>
+
+                    <ul class="service-list">
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="Icons/icon-design.svg" alt="design icon" width="40" />
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Web design</h4>
+
+                                <p class="service-item-text">
+                                    The most modern and high-quality design made at a
+                                    professional level.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="Icons/icon-dev.svg" alt="Web development icon" width="40" />
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Web development</h4>
+
+                                <p class="service-item-text">
+                                    High-quality development of sites at the professional level.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="Icons/icon-photo.svg" alt="camera icon" width="40" />
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Photography</h4>
+
+                                <p class="service-item-text">
+                                    I make high-quality photos of any category at a professional
+                                    level.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <!--
+        - #RESUME
+      -->
+
+            <article class="resume" data-page="resume">
+                <header>
+                    <h2 class="h2 article-title">Resume</h2>
+                </header>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+
+                        <h3 class="h3">Education</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">
+                                KJ College Of Engineering And Management Research,Pune
+                            </h4>
+
+                            <span>2020 — 2024</span>
+
+                            <p class="timeline-text">
+                                >> Course — Bachelor Of Engineering
+                                <br>
+                                >> Percentage — 69.73 %
+                            </p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">R.K College Madhubani</h4>
+
+                            <span>2019 — 2020</span>
+
+                            <p class="timeline-text">
+                                >> 12 th ( HSE )
+                                <br>
+                                >> Percentage — 60 %
+                            </p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">
+                                S.K High School
+                            </h4>
+
+                            <span>2017 — 2018</span>
+
+                            <p class="timeline-text">
+                                >> 10 th ( BSEB )
+                                <br>
+                                >> Percentage — 62.2 %
+                            </p>
+                        </li>
+                    </ol>
+                </section>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+
+                        <h3 class="h3">Courses</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">
+                                Html
+                            </h4>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">
+                                CSS
+                            </h4>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">
+                                Javascript
+                            </h4>
+                        </li>
+
+                         <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">
+                                React.js
+                            </h4>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">
+                                Core Java
+                            </h4>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">
+                                SQL
+                            </h4>
+                        </li>
+                    </ol>
+                </section>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+
+                        <h3 class="h3">Projects</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">
+                                Landing page of Hotel website
+                            </h4>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">
+                                Portfolio website
+                            </h4>
+                        </li>
+                    </ol>
+                </section>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+
+                        <h3 class="h3">Experience</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Live Projects</h4>
+
+                            <span>2024 — Present</span>
+
+                            <p class="timeline-text">
+                                >> Live Project: E-commerce Website Development
+                            </p>
+                        </li>
+                    </ol>
+                </section>
+
+                <section class="skill">
+                    <h3 class="h3 skills-title">My skills</h3>
+
+                    <ul class="skills-list content-card">
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Html</h5>
+                                <data value="80">80%</data>
+                            </div>
+
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 80%"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">CSS</h5>
+                                <data value="80">80%</data>
+                            </div>
+
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 80%"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Javascript</h5>
+                                <data value="50">80%</data>
+                            </div>
+
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 80%"></div>
+                            </div>
+                        </li>
+
+                          <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">React.js</h5>
+                                <data value="50">75%</data>
+                            </div>
+
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 80%"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Core Java</h5>
+                                <data value="75">85%</data>
+                            </div>
+
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 75%"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <!--
+        - #PORTFOLIO
+      -->
+
+            <article class="portfolio" data-page="portfolio">
+                <header>
+                    <h2 class="h2 article-title">Portfolio</h2>
+                </header>
+
+                <section class="projects">
+                    <ul class="filter-list">
+                        <li class="filter-item">
+                            <button class="active" data-filter-btn>All Projects</button>
+                        </li>
+                    </ul>
+
+                    <div class="filter-select-box">
+                        <button class="filter-select" data-select>
+                            <div class="select-value" data-selecct-value>
+                                Select category
+                            </div>
+
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+                        </button>
+
+                        <ul class="select-list">
+                            <li class="select-item">
+                                <button data-select-item>All Projects</button>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <ul class="project-list">
+                     
+                        <li class="project-item active" data-filter-item data-category="Web development">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="Project/Portfolio-1.png" alt="Personal-portfolio" loading="lazy" />
+                                </figure>
+
+                                <h3 class="project-title">Personal-portfolio</h3>
+
+                                <p class="project-category">Web development</p>
+                            </a>
+                        </li>
+
+                           <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="Project/food_ordering.png" alt="Food Ordering Website" loading="lazy" />
+                                </figure>
+
+                                <h3 class="project-title">Food Ordering Website</h3>
+
+                                <p class="project-category">Web development</p>
+                            </a>
+                        </li>
+
+                           <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="Project/Student_management.png" alt="Student Management System" loading="lazy" />
+                                </figure>
+
+                                <h3 class="project-title">Student Management System</h3>
+
+                                <p class="project-category">Web development</p>
+                            </a>
+                        </li>
+
+                           <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="Project/pexelioons.png" alt="Pexelicons-master" loading="lazy" />
+                                </figure>
+
+                                <h3 class="project-title">Pexelicons-master</h3>
+
+                                <p class="project-category">Web development</p>
+                            </a>
+                        </li>
+                           
+                    </ul>
+                </section>
+            </article>
+
+            <!--
+        - #CONTACT
+      -->
+
+            <article class="contact" data-page="contact">
+                <header>
+                    <h2 class="h2 article-title">Contact</h2>
+                </header>
+
+                <section class="mapbox" data-mapbox>
+                    <figure>
+                        <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d25901.502571371508!2d86.0941550488663!3d26.269402713029162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spandaul%20baraitol%20railway%20line%20yemsham!5e1!3m2!1sen!2sin!4v1742392262778!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </figure>
+                </section>
+
+                <section class="contact-form">
+                    <h3 class="h3 form-title">Contact Form</h3>
+
+                    <form action="#" class="form" data-form>
+                        <div class="input-wrapper">
+                            <input type="text" name="fullname" class="form-input" placeholder="Full name" required
+                                data-form-input />
+
+                            <input type="email" name="email" class="form-input" placeholder="Email address" required
+                                data-form-input />
+                        </div>
+
+                        <textarea name="message" class="form-input" placeholder="Your Message" required
+                            data-form-input></textarea>
+
+                        <button class="form-btn" type="submit" disabled data-form-btn>
+                            <ion-icon name="paper-plane"></ion-icon>
+                            <span>Send Message</span>
+                        </button>
+                    </form>
+                </section>
+            </article>
+        </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
